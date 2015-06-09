@@ -10,7 +10,7 @@
 #define COCOAPODS_POD_AVAILABLE_Alamofire
 #define COCOAPODS_VERSION_MAJOR_Alamofire 1
 #define COCOAPODS_VERSION_MINOR_Alamofire 2
-#define COCOAPODS_VERSION_PATCH_Alamofire 1
+#define COCOAPODS_VERSION_PATCH_Alamofire 2
 
 // CYRTextView
 #define COCOAPODS_POD_AVAILABLE_CYRTextView
@@ -33,14 +33,14 @@
 // SnapKit
 #define COCOAPODS_POD_AVAILABLE_SnapKit
 #define COCOAPODS_VERSION_MAJOR_SnapKit 0
-#define COCOAPODS_VERSION_MINOR_SnapKit 11
+#define COCOAPODS_VERSION_MINOR_SnapKit 12
 #define COCOAPODS_VERSION_PATCH_SnapKit 0
 
 // TTTAttributedLabel
 #define COCOAPODS_POD_AVAILABLE_TTTAttributedLabel
 #define COCOAPODS_VERSION_MAJOR_TTTAttributedLabel 1
 #define COCOAPODS_VERSION_MINOR_TTTAttributedLabel 13
-#define COCOAPODS_VERSION_PATCH_TTTAttributedLabel 1
+#define COCOAPODS_VERSION_PATCH_TTTAttributedLabel 3
 
 // pop
 #define COCOAPODS_POD_AVAILABLE_pop
