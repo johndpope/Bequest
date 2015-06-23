@@ -77,7 +77,7 @@ public struct BQSTHTTPResponse {
 
                     serializedResponse.contentType = contentType
 
-                    print("content-type: \(contentTypeRaw)")
+                    print("content-type: \(contentTypeRaw)", appendNewline: false)
 
                     switch contentType {
                     case .JSON:

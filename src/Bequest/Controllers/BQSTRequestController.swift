@@ -160,7 +160,7 @@ class BQSTRequestController: UIViewController, UICollectionViewDelegate, UIColle
             return
         }
 
-        print("Sending a request of type \(request.HTTPMethod!) to URL \(request.URL!)")
+        print("Sending a request of type \(request.HTTPMethod!) to URL \(request.URL!)", appendNewline: false)
 
         self.progressButton.progressPercentage = 0
         self.progressButton.progressState = .Loading
@@ -217,7 +217,7 @@ class BQSTRequestController: UIViewController, UICollectionViewDelegate, UIColle
     /// MARK: UICollectionViewDelegate
 
     func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
-        print("Selected index \(indexPath)")
+        print("Selected index \(indexPath)", appendNewline: false)
     }
 
     /// MARK: UICollectionViewDelegateFlowLayout
